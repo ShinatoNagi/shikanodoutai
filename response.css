@@ -1,0 +1,238 @@
+@charset "UTF-8";
+
+/*タブレットサイズ*/
+@media (max-width: 1000px) {
+  /*全体*/
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 14px;
+  }
+  .btn {
+    font-size: 18px;
+  }
+  a {
+    font-size: 18px;
+  }
+
+  /*ヘッダー*/
+  header {
+    padding: 0 40px;
+  }
+  header .header-right a {
+    padding: 5 25px;
+  }
+
+  /*フッター*/
+  footer {
+    height: 100px;
+    padding: 20px 0;
+  }
+  footer .container {
+    text-align: center;
+    margin: 0 auto;
+  }
+  /*著作権*/
+  .footer-left {
+    float: none;
+    line-height: 50px;
+  }
+  /*ロゴ＆SNSリンク*/
+  .footer-right {
+    display: inline-block;
+    float: none;
+  }
+  .footer-right h1 {
+    line-height: 50px;
+  }
+  .footer-right img {
+    height: 24px;
+  }
+  .footer-right li {
+    margin: 11px 16px 15px 0;
+  }
+
+  /*トップページ*/
+  .images-home-bottom img {
+    width: 23%;
+    margin: 0 15px 30px;
+    border-radius: 15px;
+  }
+  .btn-home-bottom {
+    margin-bottom: 50px;
+  }
+  .btn-home-bottom a {
+    padding: 6px 10px;
+    border-radius: 6px;
+  }
+
+  /*プロフィールページ*/
+  /*プロフ画像&SNSリンク*/
+  .container-left {
+    width: 40%;
+    padding: 0 30px 15px;
+  }
+  .container-left > img {
+    min-width: 120px;
+    width: 100%;
+    aspect-ratio: 5/7;
+    margin-bottom: 20px;
+    border-radius: 15px;
+  }
+  .container-left li img {
+    height: 28px;
+  }
+  /*自己紹介*/
+  .container-right {
+    width: 60%;
+    padding: 0 15px;
+  }
+  .container-right h3 {
+    margin: 20px 0;
+  }
+  .container-right p {
+    margin-bottom: 5px;
+  }
+
+  /*作品ページ*/
+  .ttl-gallery-year {
+    padding-left: 50px;
+    margin-bottom: 30px;
+  }
+  /*画像*/
+  .images-gallery img {
+    width: 30%;
+    margin: 0 30px 60px;
+    border-radius: 15px;
+  }
+  /*ボタン*/
+  .btn-gallery {
+    margin: 0 0 60px;
+  }
+  .btn-gallery a {
+    padding: 6px 10px;
+    border-radius: 6px;
+  }
+}
+
+/*スマホサイズ*/
+@media(max-width: 670px) {
+  /*全体*/
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  h3 {
+    font-size: 14px;
+  }
+  p {
+    font-size: 12px;
+  }
+  .btn {
+    font-size: 14px;
+  }
+  a {
+    font-size: 14px;
+  }
+
+  /*ヘッダー*/
+  header {
+    padding: 0 20px;
+    height: 60px;
+  }
+  .header-left {
+    padding: 18px 0px;
+  }
+  /*.header-right ul {
+    display: none;
+  }*/
+
+  /*メイン*/
+  main {
+    padding-top: 60px;
+  }
+
+  /*フッター*/
+  .footer-right img {
+    height: 20px;
+  }
+  .footer-right li {
+    margin: 13px 16px 17px 0;
+  }
+
+  /*トップページ*/
+  .images-home-bottom img {
+    min-width: 75px;
+    width: 38%;
+    aspect-ratio: 3/4;
+    margin: 0 10px 40px;
+    border-radius: 10px;
+  }
+  .btn-home-bottom {
+    margin-bottom: 50px;
+  }
+  .btn-home-bottom a {
+    padding: 5px 8px;
+    border-radius: 6px;
+  }
+
+  /*プロフィールページ*/
+  /*プロフ画像&SNSリンク*/
+  .container-left {
+    width: 50%;
+    padding: 0 10px 15px;
+  }
+  .container-left > img {
+    min-width: 90px;
+    width: 90%;
+    border-radius: 10px;
+  }
+  .container-left li img {
+    height: 24px;
+  }
+  /*自己紹介*/
+  .container-right {
+    display: none;
+  }
+  .container-right-mini {
+    display: block;
+    width: 50%;
+    padding: 0 15px;
+  }
+  .container-right-mini h3 {
+    margin: 15px 0;
+  }
+  .container-right-mini p {
+    margin-bottom: 5px;
+  }
+
+  /*作品ページ*/
+  .ttl-gallery-year {
+    padding-left: 30px;
+    margin-bottom: 30px;
+  }
+  /*画像*/
+  .images-gallery img {
+    width: 40%;
+    aspect-ratio: 3/4;
+    margin: 0 10px 40px;
+    border-radius: 10px;
+  }
+  /*ボタン*/
+  .btn-gallery {
+    margin-bottom: 40px;
+  }
+  .btn-gallery a {
+    padding: 5px 8px;
+    border-radius: 6px;
+  }
+}
