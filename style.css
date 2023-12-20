@@ -63,15 +63,15 @@ header {
 }
 /*現在のページ*/
 .now {
-	border-bottom: 2px solid #5FDFA9;
-	border-image: linear-gradient(to right, rgba(255, 255, 255, 0), #5FDFA9, rgba(255, 255, 255, 0)) 1;
+  border-bottom: 2px solid #5FDFA9;
+  border-image: linear-gradient(to right, rgba(255, 255, 255, 0), #5FDFA9, rgba(255, 255, 255, 0)) 1;
 }
 /*カーソルを合わせると色を変える*/
 .header-right a {
-	transition: all 500ms;
+  transition: all 500ms;
 }
 .header-right a:hover {
-	background: rgba(238, 238, 238, 0.9);
+  background: rgba(238, 238, 238, 0.9);
 }
 
 /*メイン*/
@@ -87,7 +87,7 @@ footer {
   width: 100%;
   height: 150px;
   padding: 0 50px;
-  margin-top: 15px;
+  margin-top: 30px;
   border-top: gray solid 0.5px;
 }
 /*著作権*/
