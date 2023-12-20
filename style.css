@@ -202,12 +202,12 @@ footer {
   min-width: 160px;
   width: 80%;
   aspect-ratio: 5/7;
-	margin-bottom: 40px;
-	background-color: rgba(248, 248, 248, 0.8);
-	border-radius: 20px;
-	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
-	vertical-align: bottom;
-	object-fit: contain;
+  margin-bottom: 40px;
+  background-color: rgba(248, 248, 248, 0.8);
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  vertical-align: bottom;
+  object-fit: contain;
 }
 .container-left ul {
   width: 80%;
