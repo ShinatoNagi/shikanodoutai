@@ -67,10 +67,10 @@ header {
 	border-image: linear-gradient(to right, rgba(255, 255, 255, 0), #5FDFA9, rgba(255, 255, 255, 0)) 1;
 }
 /*カーソルを合わせると色を変える*/
-.list-nav-header a {
+.header-right a {
 	transition: all 500ms;
 }
-.list-nav-header a:hover {
+.header-right a:hover {
 	background: rgba(238, 238, 238, 0.9);
 }
 
